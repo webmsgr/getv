@@ -1,6 +1,9 @@
 # getv
 A convenient script to download and install v into your system!
 
+# To Use
+`curl https://raw.githubusercontent.com/webmsgr/getv/master/getv.sh | sh`
+
 # Known platforms
 - [x] Github Actions
 - [ ] Windows with Git Bash
