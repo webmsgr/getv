@@ -11,5 +11,4 @@ jobs:
     - uses: actions/checkout@v1
     - name: Test script
       run: |
-        chmod +x getv.sh
-        ./getv.sh
+        curl https://raw.githubusercontent.com/webmsgr/getv/master/getv.sh | sh
