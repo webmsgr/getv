@@ -1,3 +1,4 @@
+#!/bin/sh
 echo GetV
 echo Grabbing V...
 git clone https://github.com/vlang/v .gitv
