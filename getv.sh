@@ -35,7 +35,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 rm lossy
+sudo ./v symlink
 echo 
-echo Complete! Use ./v to use v, or add $PWD to path to use v anywhere!
+echo Complete! Use v to use v!
 echo Use this script to update v.
 echo
