@@ -21,7 +21,7 @@ cp -r thirdparty ..
 cp -r examples ..
 cp v.v ..
 echo testing v
-./v -prod -obf -o ../v v.v > vstep1.log
+./v -prod -o ../v v.v > vstep1.log
 if [ $? -ne 0 ]; then
     echo "V test failed"
     cat vstep1.log
