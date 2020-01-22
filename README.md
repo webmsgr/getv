@@ -8,6 +8,6 @@ A convenient script to download and install v into your system!
 - [x] Github Actions
 - [ ] Windows with Git Bash
 - [ ] Linux
-- [ ] MacOS
+- [x] MacOS
 
 Just because a box isnt checked does not mean it doesnt work, it just means I havent tested it on that platform
